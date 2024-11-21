@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+.audio-player-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.audio-player {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.track-title {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.track-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.track-list-item {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.track-list-item:hover,
+.track-list-item.active {
+  background-color: #ddd;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-buttom: 20px;
+  font-size: 1rem;
+}
+
+.genre-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.genre-button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #eee;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.genre-button:hover,
+.genre-button.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.react-h5-audio-player {
+  --rp-controls-color: #fff;
+  --rp-time-color: #fff;
+  --rp-time-font-size: 0.85rem;
+  --rp-track-title-color: #fff;
+  --rp-controls-background: #222;
+  --rp-slider-height: 4px;
+  --rp-slider-track-background: #555;
+  --rp-slider-handle-background: #fff;
+}
+
+.react-h5-audio-player .rhap_time {
+  color: #ddd;
+}
+
+.react-h5-audio-player .rhap_main-controls-button,
+.react-h5-audio-player .rhap_additional-controls-button {
+  color: #fff;
+}
+
+.react-h5-audio-player .rhap_volume-button,
+.react-h5-audio-player .rhap_repeat-button {
+  color: #fff;
+}
+
+.react-h5-audio-player .rhap_volume-bar {
+  background: #333;
+}
+
+.react-h5-audio-player .rhap_volume-indicator {
+  background: #fff;
+}
